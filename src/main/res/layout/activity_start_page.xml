@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".StartPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat App"
+        android:layout_gravity="center"
+        android:textColor="#f12121"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:src="@drawable/nayeem"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Which is Developed by \nMd Nayeem Sarker (AshA) "
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="#f12121"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginId"
+        android:textColor="#fff"
+        android:background="#da5151"
+        android:layout_marginTop="100dp"
+        android:text="LogIn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerId"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#da5151"
+        android:text="Register"/>
+
+</LinearLayout>
